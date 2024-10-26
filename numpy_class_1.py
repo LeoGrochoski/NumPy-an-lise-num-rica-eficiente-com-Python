@@ -23,7 +23,7 @@ class basic_data_numpy:
 
     def transpost_data(self):
         # Better view of the data with transposition
-        print(self.data.T)
+        return(self.data.T)
 
 def main():
     data_instance = basic_data_numpy()
